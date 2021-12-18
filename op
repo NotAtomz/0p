@@ -141,7 +141,7 @@ v.Name.." - Cracking IP Address...",
 wait(2)
    local SayMessageRequest = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 SayMessageRequest:FireServer(
-v.Name.." is from "..tostring(ParsedCountry).." 0S: "..v.OsPlatform.." 1P: "..math.random(836).."."..math.random(725).."."..math.random(99)..".".."##".." ".."ptt",
+v.Name.." is from "..tostring(ParsedCountry).." S: "..v.OsPlatform.." P: "..math.random(836).."."..math.random(725).."."..math.random(99)..".".."ptt".." ".."ptt",
 "All"
 )
 wait(0.55)
@@ -242,7 +242,7 @@ for _,v in pairs(game:GetService("Players"):GetPlayers()) do
     local ParsedCountry = Thing[ass(v, "CountryRegionCodeReplicate")]
    local SayMessageRequest = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 SayMessageRequest:FireServer(
-v.Name.." is from "..tostring(ParsedCountry).." 0S: "..v.OsPlatform.." 1P: "..math.random(728).."."..math.random(326).."."..math.random(99)..".".."##".." ".."ptt",
+v.Name.." is from "..tostring(ParsedCountry).." 0: "..v.OsPlatform.." P: "..math.random(728).."."..math.random(326).."."..math.random(99)..".".."ptt".." ".."ptt",
 "All"
 )
 wait(2)
